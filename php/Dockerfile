@@ -6,3 +6,5 @@ RUN set -ex apk --no-cache add postgresql-dev libpq-dev && \
     vim \
     less \
     && docker-php-ext-install pdo pdo_pgsql pgsql mbstring
+    
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer

@@ -7,6 +7,7 @@ try {
     print '接続に成功しました。' . '<br>';
     $sql = 'SELECT * FROM test ORDER BY id';
     $lists = ($db->query($sql)->fetchALL(PDO::FETCH_ASSOC));
+
     foreach ($lists as $list) {
         print $list['id'] . '<br>';
         print $list['test_name'] . '<br>';
@@ -17,5 +18,6 @@ try {
 } finally {
     $dbh = null;
 }
+
 
 

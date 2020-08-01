@@ -32,7 +32,6 @@
 postgresql.env
 postgresql/data
 www/html/app/DbManager.php
-www/html/app/slack_access.php
 
 
 
