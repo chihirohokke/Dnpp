@@ -33,10 +33,5 @@ postgresql.env
 postgresql/data
 www/html/app/DbManager.php
 
-/public/packs
-/public/packs-test
-/node_modules
-/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
+
 

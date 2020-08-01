@@ -1,6 +1,6 @@
 <?php
 
-require_once './app/DbManager.php';
+require_once '../app/DbManager.php';
 
 try {
     $db = getDb();
