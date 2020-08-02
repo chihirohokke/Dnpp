@@ -30,8 +30,8 @@
 
 .env
 postgresql.env
-postgresql/data
-www/html/app/DbManager.php
+postgres/data
+www/html/private/DbManager.php
 
 
 
